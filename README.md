@@ -6,6 +6,8 @@
 
 - Integrates data to provide the optimal investment choices.
 - Executes necessary transactions in a single action, making investment easier and reducing gas fees.
+- account factory contract address : 0xd422d4988616A39B4884eF4135A1442cD8f93476
+  (sepolia)
 
 ## The problem it solves
 
