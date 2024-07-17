@@ -1,0 +1,35 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: YourContract
+    network: sepolia
+    source:
+      address: "0x100FF1eB3f6decae301EF1eCd767618fe20F68e0"
+      abi: YourContract
+      startBlock: 6302869
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Approval
+        - GreetingChange
+        - TokenMint
+        - Transfer
+      abis:
+        - name: YourContract
+          file: ./abis/YourContract.json
+      eventHandlers:
+        - event: Approval(indexed address,indexed address,uint256)
+          handler: handleApproval
+        - event: GreetingChange(indexed address,string,bool,uint256)
+          handler: handleGreetingChange
+        - event: TokenMint(address,uint256)
+          handler: handleTokenMint
+        - event: Transfer(indexed address,indexed address,uint256)
+          handler: handleTransfer
+      file: ./src/your-contract.ts
