@@ -1,7 +1,12 @@
 import React, { useReducer, createContext, useContext, useRef } from 'react';
 
 const initialTodos = [
-
+  {
+    id: 1,
+    address: '0x1e572678738674481dE656233E8456BBc4b3b0aB',
+    amount: 1000,
+    done: false
+  }
 ];
 
 function todoReducer(state, action) {
@@ -25,7 +30,7 @@ const TodoNextIdContext = createContext();
 
 export function TodoProvider({ children }) {
   const [state, dispatch] = useReducer(todoReducer, initialTodos);
-  const nextId = useRef(0);
+  const nextId = useRef(2);
 
   return (
     <TodoStateContext.Provider value={state}>

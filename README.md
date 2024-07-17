@@ -1,4 +1,44 @@
-# 🏗 Scaffold-ETH 2
+# Fistack with zksync native Account Abstraction
+
+# Make diverse transactions with one-click
+
+## What it does
+
+- Integrates data to provide the optimal investment choices.
+- Executes necessary transactions in a single action, making investment easier and reducing gas fees.
+
+## The problem it solves
+
+- Addresses the difficulties DeFi investors face in executing and managing optimal investments.
+
+## Challenges I ran into
+
+- Encountered issues while developing with zkSync native AA for the first time, particularly with deploying the account contract that serves as the foundation for AAFactory.
+
+## Technologies I used
+
+- React.js
+- Next.js
+- Ether.js
+- Node.js
+- Javascript
+- Solidity
+
+## How we built it
+
+- Bootstrapped the project using Scaffold.
+- Exported data through The Graph.
+
+## What we learned
+
+- Gained an understanding of how zkSync’s account abstraction is implemented.
+- Learned about the codes in aafactory.sol and account.sol required to create native AA.
+
+## What's next for fistack
+
+- Make the production level product.
+
+# About Scaffold-ETH2
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
