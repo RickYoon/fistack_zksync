@@ -1,7 +1,10 @@
 # Fistack with zksync native Account Abstraction
 
-- Demo Url : Preparing. (7/19 will be updated)
-- Demo Movie : Preparing (7/18 wil be updated)
+Sepolia (Deployed)
+
+AA-Factory : 0xE8fB7BB98D5E1967499edE94dA24262B00C78C89  
+Account : 0x075B65B22074A5E427756060Ce58283B0De9C331
+
 
 # Make diverse transactions with one-click
 
@@ -9,8 +12,7 @@
 
 - Integrates data to provide the optimal investment choices.
 - Executes necessary transactions in a single action, making investment easier and reducing gas fees.
-- account factory contract address : 0xd422d4988616A39B4884eF4135A1442cD8f93476
-  (sepolia)
+
 
 ## The problem it solves
 
